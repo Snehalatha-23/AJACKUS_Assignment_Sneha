@@ -1,86 +1,115 @@
-# **AJackus Frontend Assignment**
 
-### **Made by Sagar Kapoor**
+# 👩‍💼 AJackus Frontend Assignment – Employee Directory
 
----
-
-## **Live Link**
-Visit the live version of the project here: [AJackus Assignment 2](https://ajackus-assignment2.netlify.app/)
-
-## **GitHub Repository**
-Access the source code here: [AJackus Assignment Repository](https://github.com/SagarKapoorin/AJackus-Assignment)
+A clean and responsive Employee Directory web interface built using **HTML**, **CSS**, **Vanilla JavaScript**, and **Freemarker templates (simulated)**. Developed as part of the AJackus Frontend Internship Assignment to demonstrate frontend development proficiency.
 
 ---
 
-## **Technologies Used**
-- **React**: For building the user interface.
-- **Tailwind CSS**: For styling.
-- **React Router**: For navigation and routing.
-- **Pagination**: Implemented for handling large datasets efficiently.
-- **Lazy Loading**: To improve performance by loading components as needed.
-- **Error Management**: Proper error handling for better user experience.
-- **Responsive Design**:Had Responsive Design.
----
+## 🚀 Live Demo
 
-## **Setup Instructions**
-
-Follow these steps to set up and run the project locally:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/SagarKapoorin/AJackus-Assignment.git
-   cd AJackus-Assignment
-   ```
-
-2. **Install Dependencies**:
-   Install the required npm packages by running:
-   ```bash
-   npm install
-   ```
-
-3. **Start the Development Server**:
-   Launch the application in development mode:
-   ```bash
-   npm start
-   ```
-   The application will be available at `http://localhost:3000/`.
-
-4. **Build for Production**:
-   To create an optimized production build, run:
-   ```bash
-   npm run build
-   ```
-   This will generate the `build` folder containing the production-ready app.
+🔗 [View Deployed Project on Vercel](https://vercel.com/snehalathas-projects/ajackus-assignment-sneha)
 
 ---
 
-## **Features**
+## 📌 Project Overview
 
-1. **Error Management**:
-   - Handles unexpected errors gracefully to ensure the application remains functional.
+This application allows users to:
 
-2. **Pagination**:
-   - Efficiently manages large datasets by dividing them into smaller, more manageable pages.
+- View employee profiles in a card-based layout
+- Add new employees
+- Edit existing employee data
+- Delete employees with confirmation
+- Search employees in real-time
+- Filter by department and role
+- Sort by first name or department
+- Paginate employee list for better performance
+- Enjoy a responsive layout on all screen sizes
 
-3. **Lazy Loading**:
-   - Improves performance by loading components and resources only when needed.
-
-4. **Readable Code**:
-   - Inline comments and adequately named variables are used to enhance code readability.
+All operations are **client-side only** using **mock data** stored in a JavaScript array.
 
 ---
 
-## **Future Enhancements**
+## 🧩 Features
 
-Given more time, the following improvements will be made:
+- ✅ Display employees using dynamic DOM rendering  
+- ✅ Add/Edit employee forms with validation  
+- ✅ Delete with confirmation prompt  
+- ✅ Filter, Sort & Search seamlessly  
+- ✅ Pagination for better scalability  
+- ✅ Responsive design with Flexbox & Media Queries  
+- ✅ Clean code with modular structure  
 
-1. **State Management with Redux**:
-   - Implement Redux for centralized state management.
+---
 
-2. **Further Optimization**:
-   - Utilize Redux Thunk and Saga for asynchronous operations.
+## 🛠️ Technologies Used
 
-3. **Enhanced Design**:
-   - Improve the overall UI/UX with better layouts and additional design elements.
-4. **Make Adding User Permanent**
-   - will make use of redux and local storage to add new user addition change permanent.
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6)**
+- **Freemarker Templates (.ftlh - simulated)**
+- **Vercel** for live deployment
+
+---
+
+## 🗂️ Folder Structure
+
+AJACKUS_Assignment_Sneha/
+├── src/
+│ └── main/
+│ └── resources/
+│ ├── static/
+│ │ ├── css/
+│ │ │ └── style.css
+│ │ └── js/
+│ │ ├── data.js
+│ │ └── app.js
+│ └── templates/
+│ ├── index.ftlh
+│ └── add-edit-form.ftlh
+├── README.md
+
+
+---
+
+## 🖥️ How to Run Locally
+
+1. **Clone this repository:**
+
+```bash
+git clone https://github.com/Snehalatha-23/AJACKUS_Assignment_Sneha.git
+cd AJACKUS_Assignment_Sneha
+
+Open with VS Code
+
+Right-click index.ftlh → Open with Live Server (or) open manually in browser.
+
+Note: Freemarker templates are simulated. No backend required.
+
+💡 Challenges Faced
+Simulating Freemarker logic without server-side rendering
+
+Managing multiple dynamic DOM states (Add/Edit/Delete/Search)
+
+Maintaining responsiveness across devices
+
+Balancing simplicity and functionality within 2-day deadline
+
+🚀 Future Improvements
+Integrate real backend with Freemarker engine (Java Spring)
+
+Store data in localStorage or IndexedDB
+
+Add animations for smoother UX
+
+Enhance filters with multi-select and dropdown UI
+
+Implement full Freemarker template engine using Java
+
+📜 License
+This project is part of the AJackus Frontend Development Internship Assignment.
+
+👩‍💻 Author
+Sneha Latha
+🔗 GitHub: Snehalatha-23
+🔗 Deployed Link: https://vercel.com/snehalathas-projects/ajackus-assignment-sneha
+
