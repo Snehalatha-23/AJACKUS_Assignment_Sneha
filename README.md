@@ -77,16 +77,20 @@ AJACKUS_Assignment_Sneha/
       cd AJACKUS_Assignment_Sneha
 
 ✅ Open with VS Code
+
               Open the folder in Visual Studio Code.
 
       
 ✅ Launch in Browser
+
 Right-click index.ftlh → Open with Live Server
                   or
 Open index.ftlh manually in a browser.
 
 
 ⚠️ Note
+
+
 Freemarker templates are simulated.
 
 No backend/server setup is required.
@@ -94,6 +98,8 @@ No backend/server setup is required.
 
 
 💡 Challenges Faced
+
+
 Simulating Freemarker logic without server-side rendering.
 
 Managing multiple dynamic DOM states (Add / Edit / Delete / Search).
@@ -105,6 +111,8 @@ Balancing simplicity vs. functionality within a tight 2-day deadline.
 
 
 🚀 Future Improvements
+
+
 Integrate real backend using Freemarker engine (e.g., Java Spring).
 
 Persist data using localStorage or IndexedDB.
@@ -118,6 +126,8 @@ Implement full Freemarker template engine using Java.
 
 
 📜 License
+
+
 This project is part of the AJackus Frontend Development Internship Assignment.
 
 Intended for educational and evaluation purposes.
