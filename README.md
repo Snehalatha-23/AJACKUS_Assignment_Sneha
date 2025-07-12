@@ -72,32 +72,28 @@ AJACKUS_Assignment_Sneha/
 ---
 
 ✅ Clone This Repository
-bash
-Copy
-Edit
-git clone https://github.com/Snehalatha-23/AJACKUS_Assignment_Sneha.git
-cd AJACKUS_Assignment_Sneha
+
+      git clone https://github.com/Snehalatha-23/AJACKUS_Assignment_Sneha.git
+      cd AJACKUS_Assignment_Sneha
 
 ✅ Open with VS Code
-Open the folder in Visual Studio Code.
+              Open the folder in Visual Studio Code.
 
-
+      
 ✅ Launch in Browser
 Right-click index.ftlh → Open with Live Server
-or
-
+                  or
 Open index.ftlh manually in a browser.
 
 
 ⚠️ Note
-
 Freemarker templates are simulated.
 
 No backend/server setup is required.
 
 
-💡 Challenges Faced
 
+💡 Challenges Faced
 Simulating Freemarker logic without server-side rendering.
 
 Managing multiple dynamic DOM states (Add / Edit / Delete / Search).
@@ -107,8 +103,8 @@ Maintaining responsiveness across various device types.
 Balancing simplicity vs. functionality within a tight 2-day deadline.
 
 
-🚀 Future Improvements
 
+🚀 Future Improvements
 Integrate real backend using Freemarker engine (e.g., Java Spring).
 
 Persist data using localStorage or IndexedDB.
@@ -119,14 +115,16 @@ Enhance filters with multi-select and custom dropdown UI.
 
 Implement full Freemarker template engine using Java.
 
-📜 License
 
+
+📜 License
 This project is part of the AJackus Frontend Development Internship Assignment.
 
 Intended for educational and evaluation purposes.
 
-👩‍💻 Author
 
+
+👩‍💻 Author
 Sneha Latha
 
 🔗 GitHub: Snehalatha-23
