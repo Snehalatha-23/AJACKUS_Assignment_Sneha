@@ -71,45 +71,54 @@ AJACKUS_Assignment_Sneha/
 
 ---
 
-## 🖥️ How to Run Locally
-
-1. **Clone this repository:**
-
-```bash
+✅ Clone This Repository
+bash
+Copy
+Edit
 git clone https://github.com/Snehalatha-23/AJACKUS_Assignment_Sneha.git
 cd AJACKUS_Assignment_Sneha
+✅ Open with VS Code
+Open the folder in Visual Studio Code.
 
-Open with VS Code
+✅ Launch in Browser
+Right-click index.ftlh → Open with Live Server
+or
 
-Right-click index.ftlh → Open with Live Server (or) open manually in browser.
+Open index.ftlh manually in a browser.
 
-Note: Freemarker templates are simulated. No backend required.
+⚠️ Note
+Freemarker templates are simulated.
+
+No backend/server setup is required.
 
 💡 Challenges Faced
-Simulating Freemarker logic without server-side rendering
+Simulating Freemarker logic without server-side rendering.
 
-Managing multiple dynamic DOM states (Add/Edit/Delete/Search)
+Managing multiple dynamic DOM states (Add / Edit / Delete / Search).
 
-Maintaining responsiveness across devices
+Maintaining responsiveness across various device types.
 
-Balancing simplicity and functionality within 2-day deadline
+Balancing simplicity vs. functionality within a tight 2-day deadline.
 
 🚀 Future Improvements
-Integrate real backend with Freemarker engine (Java Spring)
+Integrate real backend using Freemarker engine (e.g., Java Spring).
 
-Store data in localStorage or IndexedDB
+Persist data using localStorage or IndexedDB.
 
-Add animations for smoother UX
+Add animations for smoother UX and feedback.
 
-Enhance filters with multi-select and dropdown UI
+Enhance filters with multi-select and custom dropdown UI.
 
-Implement full Freemarker template engine using Java
+Implement full Freemarker template engine using Java.
 
 📜 License
 This project is part of the AJackus Frontend Development Internship Assignment.
 
+Intended for educational and evaluation purposes.
+
 👩‍💻 Author
 Sneha Latha
-🔗 GitHub: Snehalatha-23
-🔗 Deployed Link: https://vercel.com/snehalathas-projects/ajackus-assignment-sneha
 
+🔗 GitHub: Snehalatha-23
+
+🔗 Deployed Link: ajackus-assignment-sneha.vercel.app
